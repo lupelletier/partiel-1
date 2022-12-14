@@ -1,4 +1,4 @@
-import logo from '../img/logo.png';
+import logo from '../img/logo-negatif.png';
 export default function Header() {
   return (
     <header className='separador'>
