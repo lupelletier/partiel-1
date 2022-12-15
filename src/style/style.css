@@ -126,7 +126,9 @@ img {
 }
 
 .main {
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/background-logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 .main .wrapper {

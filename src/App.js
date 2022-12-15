@@ -7,7 +7,7 @@ import Description from './components/description';
 import ScrollText from './components/scrollText';
 import Footer from './components/footer';
 import React from 'react'
-import ReactDOM from 'react-dom'
+
 import Snowfall from 'react-snowfall'
 
 
