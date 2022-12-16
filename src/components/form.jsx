@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { GoogleLogin, GoogleLogout } from 'react-google-login';
 import { gapi } from 'gapi-script';
 
+
 import 'reactjs-popup/dist/index.css';
 export default function Form (){
 
@@ -40,7 +41,7 @@ const logOut = () => {
       <div class="container">
         <section class="wrapper">
           <div class="heading">
-            <h1 class="text text-large">S'inscrire </h1>
+            <h1 class="text text-large">S'inscrire à la newsletter </h1>
             <p class="text text-normal">Pas encore inscrit ?  <span><a href="#" class="text text-links">Créer un compte</a></span>
             </p>
           </div>
@@ -54,7 +55,7 @@ const logOut = () => {
               <input type="password" name="password" id="password" class="input-field" placeholder="Mot de passe"></input>
             </div>
             <div className='newsletter' class="input-control">
-              <input type="checkbox" id="scales" name="scales" checked></input>
+              <input type="checkbox" id="scales" name="scales" ></input>
               <label for="scales">S'abonner à notre Newsletter</label>
             </div>
             <div class="input-control">
@@ -83,6 +84,7 @@ const logOut = () => {
                 </div>
                 
                     <h3>Inscription réussie, <p>{profile.name}</p> </h3>
+                    <button >Voir le site </button> <br />
                     <GoogleLogout clientId={clientId} buttonText="Log out" onLogoutSuccess={logOut} />
                 </div>
             ) : (

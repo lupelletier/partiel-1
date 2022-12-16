@@ -21,6 +21,12 @@ header {
   max-width: 10%;
   margin: 0.5rem;
 }
+@media screen and (max-width: 800px) {
+  .logo {
+    max-width: 15%;
+    margin: 0.5rem;
+  }
+}
 
 :root {
   --color-white: #ffffff;
@@ -114,7 +120,7 @@ img {
 .text-normal {
   font-size: 1rem;
   font-weight: 400;
-  color: var(--color-black);
+  color: #001632;
 }
 .text-links {
   font-size: 1rem;
@@ -126,7 +132,7 @@ img {
 }
 
 .main {
-  background-image: url(../img/background-logo.png);
+  background-image: url(../img/background-form.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -158,6 +164,7 @@ img {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1.25rem;
+  color: #f1f5f9;
 }
 .main .wrapper .form .input-field {
   font-family: inherit;
@@ -175,6 +182,20 @@ img {
   text-transform: unset;
   text-rendering: optimizeLegibility;
 }
+.main .wrapper .form .blue-button {
+  background-color: #1B4965;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+@media screen and (max-width: 1100px) {
+  .main .wrapper .form .blue-button {
+    padding: auto;
+    font-size: smaller;
+  }
+}
 .main .wrapper .form .input-submit {
   font-family: inherit;
   font-size: 1rem;
@@ -188,7 +209,7 @@ img {
   outline: none;
   border-radius: 2rem;
   color: var(--color-white);
-  background: #1B4965;
+  background: #5FA8D3;
   box-shadow: var(--shadow-medium);
   text-transform: capitalize;
   text-rendering: optimizeLegibility;
@@ -773,7 +794,7 @@ a {
   width: 70%;
 }
 .newsletter label {
-  color: whitesmoke !important;
+  color: #5FA8D3;
   font-size: 20px;
   font-weight: bold;
 }
@@ -792,7 +813,7 @@ a {
 }
 @media screen and (max-width: 800px) {
   .footer img {
-    width: 100%;
+    width: 300px;
   }
 }
 .footer p {

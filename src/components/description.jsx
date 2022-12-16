@@ -9,8 +9,7 @@ export default function Description() {
   return (
     <div className='description'>
       <h1>Drink Buddy</h1>
-      <p>Votre outil de tous les jours pour vous assurer une bonne hydratation !
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ipsam quaerat esse nesciunt explicabo saepe repellat quasi odio voluptas laboriosam, architecto recusandae sapiente quam molestias similique et inventore? Consectetur, beatae.
+      <p> Le Drink Buddy est le compagnon idéal pour une vie plus saine, avec sa facilité d’utilisation et sa taille, il peut être utilisé partout sans trop de problème. Sa batterie et le câble de rechargement intégrés permettent une utilisation prolongée quel que soit l’environnement!
       </p>
       <div className="flex">
       <button className='blue-button'>Acheter maintenant</button>

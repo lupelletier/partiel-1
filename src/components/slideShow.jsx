@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import img1 from '../img/img-1.jpg';
-import img2 from '../img/img-2.png';
-import img3 from '../img/img-3.png';
+import img1 from '../img/noel-1.png';
+import img2 from '../img/noel-2.jpg';
+import img3 from '../img/verre.png';
 
 
 export default class Slideshow extends Component {
